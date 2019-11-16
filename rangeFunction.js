@@ -13,3 +13,5 @@ function range(start, edge, step) {
   }
   return arr;
 }
+
+document.write(range(10,20,2));
