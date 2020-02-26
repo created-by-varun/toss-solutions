@@ -1,8 +1,8 @@
 using System;
 
-class MainClass { 
+public class MainClass { 
 
-static void removeChar(string s,char c) { 
+public static void removeChar(string s,char c) { 
 
     int j, count = 0, n = s.Length;
     char[] t = s.ToCharArray(); 
